@@ -1,0 +1,19 @@
+<!-- custom_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#DDDDDD" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <!-- Progress -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@android:color/primary_text_light" />
+                <corners android:radius="5dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
